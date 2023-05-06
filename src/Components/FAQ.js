@@ -64,14 +64,14 @@ const FAQ = () => {
 
         <div className="flex md:flex-row items-center gap-6 flex-col">
           <div className="w-[30%] md:block mx-auto">
-            <div className="relative">
-              <img src={footerRobot} alt="" />
-              <div className="flex absolute gap-3 top-5 left-[100px]">
+            <div className="flex flex-col justify-center items-center">
+              <div className="flex md:-bottom-[45px] -bottom-[35px] md:left-[14px] left-[10px] relative">
                 {" "}
                 <img src={q3} alt="" />
                 <img src={q2} className="-mt-8" alt="" />
                 <img src={q} alt="" />
               </div>
+              <img src={footerRobot} alt="" />
             </div>
           </div>
           <div className="w-[70%] mx-auto">
