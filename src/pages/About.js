@@ -9,11 +9,8 @@ const About = () => {
     <div id="About">
       <div className={`relative  mt-32`}>
         <div
-          className={`${styles.paddingX} max-w-[1440px] mx-auto md:h-[883px] relative z-2  flex   justify-center`}
+          className={`${styles.paddingX} light-bg max-w-[1440px] mx-auto md:h-[883px] relative z-2  flex  justify-center`}
         >
-          <div className="absolute top-[10rem] md:top-[7.3rem]">
-            <img className="w-[1200px] h-full" src={light} alt="" />
-          </div>
           <img
             className="absolute bottom-0 left-14 lg:block hidden "
             src={whiteRobot}

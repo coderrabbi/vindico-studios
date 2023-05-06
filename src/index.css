@@ -153,3 +153,10 @@ span.icon-wrapper.styles_icon-wrapper__2cftw {
     transform: translateY(0);
   }
 }
+.light-bg {
+  background-image: url(../src//assets//Light.png);
+  height: fit-content;
+  width: fit-content;
+  background-size: cover;
+  background-position: center;
+}
