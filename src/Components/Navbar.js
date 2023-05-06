@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import logo from "../assets/Logo.png";
-
+import { RiMenu3Line } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const navItems = [
@@ -32,19 +32,29 @@ const Navbar = () => {
             <ul className="flex gap-6 items-center ">
               {" "}
               <li className="cursor-pointer">
-                <NavLink className={activeClass}>Marketplace</NavLink>
+                <NavLink to="/marketplace" className={activeClass}>
+                  Marketplace
+                </NavLink>
               </li>
-              <li className="cursor-pointer ">
+              <li className="cursor-pointer badge ">
                 <NavLink to="/game" className={activeClass}>
                   Game
                 </NavLink>{" "}
               </li>
               <li className="cursor-pointer gradient py-3 px-6 rounded-full">
-                Connect Wallet
+                <NavLink to="wallet"> Connect Wallet</NavLink>
               </li>
             </ul>
           </div>
         </ul>
+      </div>
+      <div
+        className={`${styles.padding} flex items-center justify-between md:hidden bg-[#1e0e0f]`}
+      >
+        <NavLink to="/">
+          <img src={logo} className="w-[40px]" alt="" />
+        </NavLink>
+        <RiMenu3Line className="cursor-pointer text-white text-[40px]" />
       </div>
     </div>
   );
