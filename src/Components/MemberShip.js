@@ -1,0 +1,48 @@
+import React from "react";
+import styles from "../style";
+import Service from "./Service";
+import Tier2 from "./Tier2";
+import Tier3 from "./Tier3";
+
+const MemberShip = () => {
+  const benifits = [
+    "Passive income through ETH dividends",
+    "Membership access to The Lair",
+    "Membership access within The Superhero Academy platform",
+    "Release advantages, community advantages",
+    "Access to the community real estate portfolio",
+    "Annual access into V-Fest and other Vindico Studios events",
+  ];
+  return (
+    <div
+      id="membership"
+      className={`${styles.paddingX} max-w-[1440px] mx-auto md:px-[14rem]  flex flex-col gap-4`}
+    >
+      <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
+        <div className="flex flex-col gap-3">
+          <h3 className="text-white text-[18px] md:text-[28px] leading-8">
+            Membership
+          </h3>
+          <h1 className="text-gradient md:text-[67px] text-[47px] stroke-1 leading-[57px] ">
+            Tiers
+          </h1>
+        </div>
+      </div>
+      <p className="text-[#968e8e] font-mono text-[14px] leading-6 text-center">
+        All holders will automatically unlock an elite membership, unlocking a
+        range of benefits, such as inclusion in regular dividend payouts,
+        ability to reserve community owned properties, and privileges over
+        nonmembers during each Vindico release or event. However, certain
+        ownership conditions will categorize members into higher tiers, granting
+        them even greater benefits.
+      </p>
+      <div className="flex flex-col gap-10">
+        <Service benifits={benifits} />
+        <Tier2 />
+        <Tier3 />
+      </div>
+    </div>
+  );
+};
+
+export default MemberShip;

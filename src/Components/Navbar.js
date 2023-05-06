@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "../style";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo.svg";
 import { RiMenu3Line } from "react-icons/ri";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 const Navbar = () => {
   const navItems = [
     { text: "HOME", link: "/" },
-    { text: "About", link: "/about" },
+    { text: "About", link: "About" },
     { text: "Membership", link: "membership" },
     { text: "Roadmap", link: "/roadmap" },
     { text: "faqs", link: "/faq" },
   ];
+
   const activeClass = (state) => (state.isActive ? `active` : "");
   return (
     <div className="sticky top-0 z-20">
@@ -20,9 +21,16 @@ const Navbar = () => {
         >
           {navItems.map((item, index) => {
             return (
-              <NavLink to={item.link} key={index} className={activeClass}>
+              <Link
+                to={item.link}
+                spy={true}
+                smooth={true}
+                key={index}
+                className="cursor-pointer"
+                activeClass="active"
+              >
                 {item.text}
-              </NavLink>
+              </Link>
             );
           })}
           <div className="px-10 cursor-pointer">
@@ -32,17 +40,17 @@ const Navbar = () => {
             <ul className="flex gap-6 items-center ">
               {" "}
               <li className="cursor-pointer">
-                <NavLink to="/marketplace" className={activeClass}>
+                <Link to="Marketplace" className={activeClass}>
                   Marketplace
-                </NavLink>
+                </Link>
               </li>
               <li className="cursor-pointer badge ">
-                <NavLink to="/game" className={activeClass}>
+                <Link to="/game" className={activeClass}>
                   Game
-                </NavLink>{" "}
+                </Link>{" "}
               </li>
-              <li className="cursor-pointer gradient py-3 px-6 rounded-full">
-                <NavLink to="wallet"> Connect Wallet</NavLink>
+              <li className="cursor-pointer gradient border-2 border-[#FFF0F080] py-3 px-6 rounded-full">
+                <Link to="wallet"> Connect Wallet</Link>
               </li>
             </ul>
           </div>
@@ -51,9 +59,9 @@ const Navbar = () => {
       <div
         className={`${styles.padding} flex items-center justify-between md:hidden bg-[#1e0e0f]`}
       >
-        <NavLink to="/">
+        <Link to="/">
           <img src={logo} className="w-[40px]" alt="" />
-        </NavLink>
+        </Link>
         <RiMenu3Line className="cursor-pointer text-white text-[40px]" />
       </div>
     </div>

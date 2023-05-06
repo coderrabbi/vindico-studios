@@ -1,12 +1,12 @@
-import { RouterProvider } from "react-router-dom";
 import "./App.css";
-
-import { routes } from "./routes/router";
+import Navbar from "./Components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App max-w-[1440px] mx-auto">
-      <RouterProvider router={routes}></RouterProvider>
+    <div className="bg-[#0d0000] app">
+      <Navbar />
+      <Home />
     </div>
   );
 }

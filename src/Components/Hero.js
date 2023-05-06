@@ -40,18 +40,20 @@ const Hero = () => {
 
   return (
     <div
-      className={`relative bg-[url(https://i.ibb.co/WGkWFjT/Background-Image.png)]  md:mt-[-130px] bg-opacity-30  md:h-[697px] h-[550px]`}
+      id="/"
+      className={` relative bg-[url(https://i.ibb.co/WGkWFjT/Background-Image.png)] md:mt-[-130px] bg-opacity-30  md:h-[697px] h-[550px]`}
     >
       <div className="img-overlay"></div>
       <div className="dark-overlay"></div>
-      <img
-        className="absolute bottom-9 left-14 md:block hidden "
-        src={whiteRobot}
-        alt=""
-      />
+
       <div
-        className={`${styles.paddingX} relative z-2  flex h-full items-center justify-center`}
+        className={`${styles.paddingX} max-w-[1440px] mx-auto relative z-2  flex h-full items-center justify-center`}
       >
+        <img
+          className="absolute bottom-0 left-14 md:block hidden "
+          src={whiteRobot}
+          alt=""
+        />
         <div className="flex items-end justify-center">
           <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
             <div className="flex flex-col gap-3">
@@ -62,29 +64,29 @@ const Hero = () => {
                 vindico <br /> studios
               </h1>
             </div>
-            <div className="font-mono text-[#FFF0F080]  flex gap-4 justify-center">
+            <div className="font-mono font-semibold text-[#FFF0F080] flex gap-5 justify-center">
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full border w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full  border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.dd}
                 </span>
                 <span className="text-[10px]">Days</span>
               </div>
 
               <div className="flex-col gap-3 flex">
-                <span className=" flex items-center justify-center rounded-full border w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className=" flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.hh}
                 </span>
                 <span className="text-[10px] ">Hours</span>
               </div>
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full border w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.mm}
                 </span>
                 <span className="text-[10px]">Minutes</span>
               </div>
 
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full border w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.ss}
                 </span>
                 <span className="text-[10px]">Seconds</span>
@@ -104,13 +106,20 @@ const Hero = () => {
             </div>
           </div>
           <img
-            className="absolute bottom-9 md:block hidden right-12 "
+            className="absolute bottom-0 md:block hidden right-12 "
             src={blackRobot}
             alt=""
           />
         </div>
       </div>
-      <img className="absolute bottom-0 z-[-1]" src={divider} alt="" />
+      <div className="relative">
+        <img
+          className=" relative w-full h-[40px]  z-[1]"
+          src={divider}
+          alt=""
+        />
+        <div className="divider-overlay"></div>
+      </div>
     </div>
   );
 };

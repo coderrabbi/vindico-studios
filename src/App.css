@@ -1,4 +1,6 @@
-.App {
-  background-image: url(../src/assets/Top.png);
-  background-repeat: repeat;
+.app {
+  background-image: url(../src//assets/Top.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
