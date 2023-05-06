@@ -43,7 +43,6 @@ code {
   background: linear-gradient(180deg, #1d2224, #0d0000);
 }
 .text-gradient {
-  font-size: 72px;
   background: linear-gradient(#ff0000, #690000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

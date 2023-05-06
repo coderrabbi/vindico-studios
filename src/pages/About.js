@@ -15,22 +15,22 @@ const About = () => {
             <img className="w-[1200px] h-full" src={light} alt="" />
           </div>
           <img
-            className="absolute bottom-0 left-14 md:block hidden "
+            className="absolute bottom-0 left-14 lg:block hidden "
             src={whiteRobot}
             alt=""
           />
           <div className=" justify-center">
             <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
               <div className="flex flex-col gap-3">
-                <h3 className="text-white text-[18px] md:text-[28px] leading-8">
+                <h3 className="text-white text-[18px] md:text-[28px] md:leading-8 leading-6">
                   Built For Community By
                 </h3>
-                <h1 className="text-gradient md:text-[67px] text-[47px] stroke-1 leading-[57px] ">
+                <h1 className="text-gradient md:text-[67px] text-[47px] stroke-1 md:leading-[57px] leading-10 ">
                   Communty
                 </h1>
               </div>
             </div>
-            <div className={`md:px-[350px] pt-10`}>
+            <div className={`lg:px-[350px] md:px-[150px] pt-10`}>
               <p className="text-center relative z-10 font-mono md:text-[14px] text-[10px] leading-6 text-[#9b9393]">
                 We are thrilled to have you join the Vindico Studios community
                 on our exciting journey as an emerging entertainment powerhouse.
@@ -69,7 +69,7 @@ const About = () => {
               </p>
             </div>
             <img
-              className="absolute z-0 bottom-0 md:block hidden right-12 "
+              className="absolute z-0 bottom-0 lg:block hidden right-12 "
               src={blackRobot}
               alt=""
             />

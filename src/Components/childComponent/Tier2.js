@@ -1,5 +1,5 @@
 import React from "react";
-import temper from "../assets/temper.png";
+import temper from "../../assets/temper.png";
 const Tier2 = () => {
   const benifits = [
     "Ability to grant guests membership access in The Lair",
@@ -11,7 +11,7 @@ const Tier2 = () => {
   ];
   return (
     <div>
-      <div className="flex justify-between items-center">
+      <div className="md:flex md:flex-row flex flex-col justify-between items-center">
         <div className="flex-1 flex justify-start">
           <img className="w-[397px]" src={temper} alt="temper" />
         </div>
@@ -20,7 +20,7 @@ const Tier2 = () => {
             Tier 2 - Vindicates
           </h1>
           <div className="font-mono  text-white">
-            <div className="text-[14px] flex flex-col gap-4">
+            <div className="md:text-[14px] text-[12px] flex flex-col gap-4">
               <h3>Eligibility:</h3>
               <li className="text-[#968e8e]">
                 TKTV original minter (must still hold original mint)
@@ -28,9 +28,9 @@ const Tier2 = () => {
             </div>
           </div>
           <div className="font-mono  text-white">
-            <div className="text-[14px] flex flex-col ">
+            <div className="md:text-[14px] text-[12px] flex flex-col ">
               <div className="mb-4">
-                <h3 className="py-6">Benefits:</h3>
+                <h3 className="md:py-6 py-4">Benefits:</h3>
                 <span className="text-[#968e8e] mb-4">
                   All tier 1 perks plus...
                 </span>
@@ -38,7 +38,7 @@ const Tier2 = () => {
               {benifits.map((item, index) => (
                 <li
                   key={index}
-                  className="text-[#968e8e] leading-10 font-medium"
+                  className="text-[#968e8e] md:leading-10 leading-6 font-medium"
                 >
                   {item}
                 </li>
