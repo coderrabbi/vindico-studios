@@ -49,7 +49,7 @@ const FAQ = () => {
     <div>
       <div
         id="faq"
-        className={`${styles.padding} mt-12 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
+        className={`${styles.paddingX} mt-12 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
       >
         <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex flex-col gap-3">
@@ -74,7 +74,7 @@ const FAQ = () => {
               <img src={footerRobot} alt="" />
             </div>
           </div>
-          <div className="w-[70%] mx-auto">
+          <div className="md:w-[70%] md:px-0 px-5  w-[100%] mx-auto">
             <Faq
               className="border-2 text-red-500"
               data={data}

@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../style";
 import whiteRobot from "../assets/white-robot-full.png";
 import blackRobot from "../assets/black-robot-full.png";
-import light from "../assets/Light.png";
 import divider from "../assets/Divider.png";
 const About = () => {
   return (
