@@ -7,13 +7,13 @@ const Service = ({ benifits }) => {
         <h1 className="text-gradient md:py-[42px] py-[25px] uppercase font-Revamped text-[18px] md:text-[28px]  md:leading-[32.21px]">
           Tier 1 - Vigilantes
         </h1>
-        <div className="font-mono  text-white">
+        <div className="font-IbmMono font-medium  text-white">
           <div className="md:text-[14px] text-[12px] flex flex-col gap-6">
             <h3>Eligibility:</h3>
             <li className="text-[#968e8e]">Hold at least one TKTV NFT</li>
           </div>
         </div>
-        <div className="font-mono  text-white">
+        <div className="font-IbmMono font-medium  text-white">
           <div className="md:text-[14px] text-[12px] flex flex-col ">
             <h3 className="md:py-6 py-4">Benefits:</h3>
             {benifits.map((item, index) => (

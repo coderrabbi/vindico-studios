@@ -8,8 +8,8 @@ const Navbar = () => {
     { text: "HOME", link: "/" },
     { text: "About", link: "About" },
     { text: "Membership", link: "membership" },
-    { text: "Roadmap", link: "/roadmap" },
-    { text: "faqs", link: "/faq" },
+    { text: "Roadmap", link: "roadmap" },
+    { text: "faqs", link: "faq" },
   ];
 
   const activeClass = (state) => (state.isActive ? `active` : "");

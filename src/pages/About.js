@@ -31,7 +31,7 @@ const About = () => {
               </div>
             </div>
             <div className={`lg:px-[350px] md:px-[150px] pt-10`}>
-              <p className="text-center relative z-10 font-mono md:text-[14px] text-[10px] leading-6 text-[#9b9393]">
+              <p className="text-center relative z-10 font-IbmMono font-medium md:text-[14px] text-[10px] leading-6 text-lightWhite">
                 We are thrilled to have you join the Vindico Studios community
                 on our exciting journey as an emerging entertainment powerhouse.
                 Our team is dedicated to developing innovative software

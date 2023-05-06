@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         Revamped: ["REVAMPED"],
+        IbmMono: ["IBM Plex Mono"],
+      },
+      colors: {
+        lightWhite: "#968e8e",
       },
     },
   },

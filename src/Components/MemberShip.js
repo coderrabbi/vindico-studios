@@ -29,7 +29,7 @@ const MemberShip = () => {
             </h1>
           </div>
         </div>
-        <p className="text-[#968e8e] font-mono md:text-[14px] text-[12px] leading-6 text-center">
+        <p className="text-lightWhite font-IbmMono font-medium md:text-[14px] text-[12px] leading-6 text-center">
           All holders will automatically unlock an elite membership, unlocking a
           range of benefits, such as inclusion in regular dividend payouts,
           ability to reserve community owned properties, and privileges over

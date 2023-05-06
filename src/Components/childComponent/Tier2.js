@@ -19,7 +19,7 @@ const Tier2 = () => {
           <h1 className="text-gradient py-[42px] uppercase font-Revamped md:text-[28px] text-[18px] stroke-1 leading-[32.21px]">
             Tier 2 - Vindicates
           </h1>
-          <div className="font-mono  text-white">
+          <div className="font-IbmMono font-medium  text-white">
             <div className="md:text-[14px] text-[12px] flex flex-col gap-4">
               <h3>Eligibility:</h3>
               <li className="text-[#968e8e]">
@@ -27,7 +27,7 @@ const Tier2 = () => {
               </li>
             </div>
           </div>
-          <div className="font-mono  text-white">
+          <div className="font-IbmMono font-medium  text-white">
             <div className="md:text-[14px] text-[12px] flex flex-col ">
               <div className="mb-4">
                 <h3 className="md:py-6 py-4">Benefits:</h3>

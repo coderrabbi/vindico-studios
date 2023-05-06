@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 @font-face {
   font-family: REVAMPED;
   src: url(/src/static/font/Revamped.otf);
@@ -75,4 +75,55 @@ code {
   top: 0;
   background-color: #0d00001e;
   z-index: 1;
+}
+.styles_faq-row-wrapper__3vA1D {
+  background-color: var(--faq-bg-color, white);
+  background: transparent !important;
+}
+
+.styles_faq-row-wrapper__3vA1D
+  .row-title.closed.styles_row-title__1YiiY.styles_closed__39w54 {
+  background: linear-gradient(180deg, #1d2224 0%, #0d0000 100%);
+  margin-bottom: 19px;
+
+  padding: 4px 15px 13px 20px;
+  border: 1px solid rgba(255, 240, 240, 0.5) !important;
+  border-radius: 100px;
+}
+.styles_faq-row-wrapper__3vA1D
+  .styles_row-body__1NvUo
+  .styles_faq-row__2YF3c
+  .styles_row-title__1YiiY {
+  background: linear-gradient(180deg, #1d2224 0%, #0d0000 100%);
+  margin-bottom: 19px;
+  padding: 10px !important;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 500;
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  padding: 10px 20px 10px 20px !important;
+  border: 1px solid rgba(255, 240, 240, 0.5) !important;
+  border-radius: 100px;
+}
+section.faq-row.styles_faq-row__2YF3c {
+  border: none !important;
+}
+.styles_row-content-text__2sgAB.row-content-text {
+  color: #968e8e !important;
+  padding-left: 15px !important;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 24px !important;
+}
+
+span.icon-wrapper.styles_icon-wrapper__2cftw {
+  background-image: url(/src//assets//Active\ -\ Icon.svg);
+  height: 12px !important;
+  background-repeat: no-repeat !important;
+  font-size: 0px !important;
+  width: 12px !important;
+
+  position: inherit;
 }

@@ -64,29 +64,29 @@ const Hero = () => {
                 vindico <br /> studios
               </h1>
             </div>
-            <div className="font-mono font-semibold text-[#FFF0F080] flex gap-5 justify-center">
+            <div className="font-IbmMono  font-semibold text-lightWhite flex gap-5 justify-center">
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full  border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full  border-2 border-lightWhite w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.dd}
                 </span>
                 <span className="text-[10px]">Days</span>
               </div>
 
               <div className="flex-col gap-3 flex">
-                <span className=" flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className=" flex items-center justify-center rounded-full border-2 border-lightWhite w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.hh}
                 </span>
                 <span className="text-[10px] ">Hours</span>
               </div>
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full border-2 border-lightWhite w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.mm}
                 </span>
                 <span className="text-[10px]">Minutes</span>
               </div>
 
               <div className="flex-col gap-3 flex">
-                <span className="flex items-center justify-center rounded-full border-2 border-[#FFF0F080] w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
+                <span className="flex items-center justify-center rounded-full border-2 border-lightWhite w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.ss}
                 </span>
                 <span className="text-[10px]">Seconds</span>

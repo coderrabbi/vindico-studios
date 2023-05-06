@@ -14,7 +14,7 @@ const Tier3 = () => {
         <h1 className="text-gradient py-[42px] uppercase font-Revamped md:text-[28px] text-[18px] stroke-1 leading-[32.21px]">
           Tier 3 - V.V.I.P.s
         </h1>
-        <div className="font-mono  text-white">
+        <div className="font-IbmMono font-medium  text-white">
           <div className="md:text-[14px] text-[12px] flex flex-col gap-6">
             <h3>Eligibility:</h3>
             <li className="text-[#968e8e]">
@@ -22,7 +22,7 @@ const Tier3 = () => {
             </li>
           </div>
         </div>
-        <div className="font-mono  text-white">
+        <div className="font-IbmMono font-medium  text-white">
           <div className="md:text-[14px] text-[12px] flex flex-col  ">
             <h3 className="md:py-6 py-4">Benefits:</h3>
             {benifits.map((item, index) => (
