@@ -32,27 +32,27 @@ const RoadMap = () => {
           </div>
         </div>
 
-        <div className="  text-primary text-white  ">
+        <div className=" text-white mt-[100px] ">
           <div className=" w-full h-full">
             <div className="relative wrap overflow-hidden  h-full">
               <div className=" border-yellow-555  absolute left-[50%]    ">
                 <img
-                  className="md:w-[15px] w-[10px] h-full"
+                  className="md:w-[15px] w-[10px] sm:h-full h-[1700px]"
                   src={shape}
                   alt=""
                 />
               </div>
               <div className="lg:mt-[8rem] ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[46%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
-                <div className="order-1 w-5/12 lg:ml-10 text-left">
+                <div className="order-1 right-pointer w-5/12 lg:ml-10 text-left">
                   <RoadMapUtils info={firstInfo} />
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[45%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -61,7 +61,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[46%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -71,7 +71,7 @@ const RoadMap = () => {
               </div>
 
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[45%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -80,7 +80,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[46%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -89,7 +89,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[45%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -98,7 +98,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 lg:left-[46%] md:left-[44%] left-[44%]">
+                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>

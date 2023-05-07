@@ -161,3 +161,13 @@ span.icon-wrapper.styles_icon-wrapper__2cftw {
   background-size: cover;
   background-position: center;
 }
+/* 
+.right-pointer {
+  position: relative;
+}
+.right-pointer::before {
+  content: url(./assets/Pointer.svg);
+  position: absolute;
+  left: 0;
+  width: 50px;
+} */

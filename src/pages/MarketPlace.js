@@ -87,7 +87,7 @@ const MarketPlace = () => {
           </div>
         </div>
       </div>
-      <div className="my-6 ">
+      <div className="my-10 ">
         <MarketPlaceCard info={marketplaceCard} />
       </div>
     </div>
