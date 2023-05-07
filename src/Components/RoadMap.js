@@ -37,7 +37,7 @@ const RoadMap = () => {
             <div className="relative wrap md:px-0 px-5 overflow-hidden  h-full">
               <div className=" border-yellow-555  absolute left-[50%]    ">
                 <img
-                  className="md:w-[15px] w-[10px] sm:h-full h-[1900px]"
+                  className="md:w-[15px] w-[10px] sm:h-full h-[2000px]"
                   src={shape}
                   alt=""
                 />
