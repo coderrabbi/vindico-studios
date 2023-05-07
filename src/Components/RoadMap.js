@@ -37,7 +37,7 @@ const RoadMap = () => {
             <div className="relative wrap overflow-hidden  h-full">
               <div className=" border-yellow-555  absolute left-[50%]    ">
                 <img
-                  className="md:w-[15px] w-[10px] sm:h-full h-[1700px]"
+                  className="md:w-[15px] w-[10px] sm:h-full h-[1900px]"
                   src={shape}
                   alt=""
                 />
@@ -52,7 +52,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -71,7 +71,7 @@ const RoadMap = () => {
               </div>
 
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
@@ -89,7 +89,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[45%]">
+                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
                 <div className="order-1 w-5/12"></div>
