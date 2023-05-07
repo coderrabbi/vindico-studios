@@ -1,15 +1,11 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import Footer from "./common/Footer";
-import Navbar from "./common/Navbar";
-
-import Home from "./pages/Home";
+import { routes } from "./routes/routes";
 
 function App() {
   return (
     <div className="bg-[#0d0000] app">
-      <Navbar />
-      <Home />
-      <Footer />
+      <RouterProvider router={routes}></RouterProvider>
     </div>
   );
 }

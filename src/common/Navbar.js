@@ -3,6 +3,7 @@ import styles from "../style";
 import logo from "../assets/Logo.svg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const navItems = [
     { text: "HOME", link: "/" },
@@ -12,8 +13,8 @@ const Navbar = () => {
     { text: "faqs", link: "faq" },
   ];
   const [toggle, settoggle] = useState(false);
-  console.log(toggle);
   const activeClass = (state) => (state.isActive ? `active` : "");
+
   return (
     <div className="sticky top-0 z-20">
       <div className="md:flex hidden justify-center">
@@ -41,7 +42,13 @@ const Navbar = () => {
             <ul className="flex gap-6 items-center ">
               {" "}
               <li className="cursor-pointer">
-                <Link to="Marketplace" className={activeClass}>
+                <Link
+                  to="Marketplace"
+                  spy={true}
+                  smooth={true}
+                  activeClass="active"
+                  className={activeClass}
+                >
                   Marketplace
                 </Link>
               </li>
@@ -83,7 +90,8 @@ const Navbar = () => {
             {navItems.map((item, index) => {
               return (
                 <li
-                  className={` text-white items-center text-[12px] gap-6 font-Revamped uppercase  ${
+                  key={index}
+                  className={` cursor-pointer  text-white items-center text-[12px] gap-6 font-Revamped uppercase  ${
                     index === navItems.length - 1 ? `mr-0` : `mb-4`
                   }`}
                 >
@@ -92,7 +100,6 @@ const Navbar = () => {
                     spy={true}
                     smooth={true}
                     activeClass="active"
-                    href={`#${item.id}`}
                   >
                     {item.text}
                   </Link>
@@ -101,7 +108,13 @@ const Navbar = () => {
             })}
             <div className="flex flex-col gap-6 items-center mt-4">
               <li className="cursor-pointer  text-white items-center text-[12px] gap-6 font-Revamped uppercase">
-                <Link to="Marketplace" className={activeClass}>
+                <Link
+                  to="Marketplace"
+                  spy={true}
+                  smooth={true}
+                  activeClass="active"
+                  className={activeClass}
+                >
                   Marketplace
                 </Link>
               </li>

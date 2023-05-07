@@ -19,7 +19,7 @@ const RoadMap = () => {
     <div>
       <div
         id="roadmap"
-        className={`md:${styles.padding} mt-7 max-w-[1440px] mx-auto lg:px-[12rem]  flex flex-col gap-4`}
+        className={`md:${styles.padding} mt-7 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
       >
         <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex flex-col gap-3">
