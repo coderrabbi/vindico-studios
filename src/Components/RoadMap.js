@@ -34,7 +34,7 @@ const RoadMap = () => {
 
         <div className=" text-white mt-[100px] ">
           <div className=" w-full h-full">
-            <div className="relative wrap overflow-hidden  h-full">
+            <div className="relative wrap   h-full">
               <div className=" border-yellow-555  absolute left-[50%]    ">
                 <img
                   className="md:w-[15px] w-[10px] sm:h-full h-[1900px]"
