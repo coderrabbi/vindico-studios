@@ -46,10 +46,10 @@ const FAQ = () => {
   };
 
   return (
-    <div>
+    <div className="md:mt-[80px] mt-[40px]">
       <div
         id="faq"
-        className={`${styles.paddingX} mt-12 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
+        className={`${styles.paddingX} faq  max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
       >
         <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex flex-col gap-3">
@@ -71,7 +71,7 @@ const FAQ = () => {
                 <img src={q2} className="-mt-8" alt="" />
                 <img src={q} alt="" />
               </div>
-              <img src={footerRobot} alt="" />
+              <img src={footerRobot} alt="" className="w-[70%] " />
             </div>
           </div>
           <div className="md:w-[70%] md:px-0 px-5  w-[100%] mx-auto">

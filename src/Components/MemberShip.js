@@ -14,10 +14,10 @@ const MemberShip = () => {
     "Annual access into V-Fest and other Vindico Studios events",
   ];
   return (
-    <div>
+    <div className=" md:mt-[80px] mt-[40px]">
       <div
         id="membership"
-        className={`${styles.padding} mt-7 max-w-[1440px] mx-auto md:px-[10rem]  flex flex-col gap-4`}
+        className={`${styles.paddingX} md:pb-16 pb-8 membership max-w-[1440px] mx-auto md:px-[10rem]  flex flex-col gap-4`}
       >
         <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex flex-col gap-3">

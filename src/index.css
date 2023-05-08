@@ -15,7 +15,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+* {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -171,3 +173,6 @@ span.icon-wrapper.styles_icon-wrapper__2cftw {
   left: 0;
   width: 50px;
 } */
+.for-transform {
+  transform: translate(-50%, -50%);
+}

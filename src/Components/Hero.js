@@ -41,13 +41,13 @@ const Hero = () => {
   return (
     <div
       id="/"
-      className={` relative bg-[url(https://i.ibb.co/WGkWFjT/Background-Image.png)] md:mt-[-130px] bg-opacity-30  md:h-[697px] h-[550px]`}
+      className={` relative home md:mt-[-130px]  bg-opacity-30  md:h-[697px] h-[550px]`}
     >
       <div className="img-overlay"></div>
       <div className="dark-overlay"></div>
 
       <div
-        className={`${styles.paddingX} max-w-[1440px] mx-auto relative z-2  flex h-full items-center justify-center`}
+        className={`${styles.paddingX} bg-[url(https://i.ibb.co/WGkWFjT/Background-Image.png)] bg-cover  max-w-[1440px] mx-auto relative z-2  flex h-full items-center justify-center`}
       >
         <img
           className="absolute bottom-0 left-14 md:block hidden "

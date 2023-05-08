@@ -16,10 +16,10 @@ import {
 import RoadMapUtils from "./RoadMapUtils";
 const RoadMap = () => {
   return (
-    <div>
+    <div className="md:mt-[80px] mt-[40px]">
       <div
         id="roadmap"
-        className={`md:${styles.padding} mt-7 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
+        className={`md:${styles.paddingX} roadmap mt-7 max-w-[1440px] mx-auto lg:px-[10rem]  flex flex-col gap-4`}
       >
         <div className="uppercase font-Revamped flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex flex-col gap-3">
@@ -32,77 +32,77 @@ const RoadMap = () => {
           </div>
         </div>
 
-        <div className=" text-white mt-[100px] ">
+        <div className=" text-white md:mt-[80px] md:pb-16 py-8  ">
           <div className=" w-full h-full">
-            <div className="relative wrap md:px-0 px-5 overflow-hidden  h-full">
-              <div className=" border-yellow-555  absolute left-[50%]    ">
+            <div className="relative md:px-0 px-5 overflow-hidden  h-full">
+              <div className=" md:block hidden border-yellow-555  absolute left-[50%]    ">
                 <img
                   className="md:w-[15px] w-[10px] sm:h-full h-[2000px]"
                   src={shape}
                   alt=""
                 />
               </div>
-              <div className="lg:mt-[8rem] ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
+              <div className="lg:mt-[8rem] md:ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
+                <div className="md:block hidden  absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1 right-pointer w-5/12 lg:ml-10 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1 right-pointer md:md:w-5/12  lg:ml-10 text-left">
                   <RoadMapUtils info={firstInfo} />
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
+                <div className="md:block hidden absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1  w-5/12 px-1 md:py-4 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1  md:w-5/12 md:px-1 md:py-4 text-left">
                   <RoadMapUtils info={secInfo} />
                 </div>
               </div>
-              <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
+              <div className=" md:ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
+                <div className="md:block hidden absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1 w-5/12 lg:ml-10 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1 md:w-5/12 lg:ml-10 text-left">
                   <RoadMapUtils info={thirdInfo} />
                 </div>
               </div>
 
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
+                <div className="md:block hidden absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1  w-5/12 px-1 py-4 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1  md:w-5/12 md:px-1 py-4 text-left">
                   <RoadMapUtils info={fourthInfo} />
                 </div>
               </div>
-              <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
+              <div className=" md:ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
+                <div className="md:block hidden absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1 w-5/12 lg:ml-10 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1 md:w-5/12 lg:ml-10 text-left">
                   <RoadMapUtils info={fifthInfo} />
                 </div>
               </div>
               <div className=" relative flex flex-row-reverse justify-between items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
+                <div className="md:block hidden absolute top-0 xl:left-[46%] lg:left-[45%] md:left-[44%] sm:left-[47%] left-[44%]">
                   <img className="md:w-full w-10" src={secPointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1  w-5/12 px-1 py-4 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1  md:w-5/12 md:px-1 py-4 text-left">
                   <RoadMapUtils info={sixthInfo} />
                 </div>
               </div>
-              <div className=" ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
-                <div className="absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
+              <div className=" md:ml-5 relative flex justify-between flex-row items-center w-full right-timeline">
+                <div className="md:block hidden absolute top-0 xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[46%] left-[43%]">
                   <img className="md:w-[76px] w-10" src={pointer} alt="" />
                 </div>
-                <div className="order-1 w-5/12"></div>
-                <div className="order-1 w-5/12 lg:ml-10 text-left">
+                <div className="md:block hidden order-1 w-5/12"></div>
+                <div className="order-1 xl:pb-10  md:w-5/12 lg:ml-10 text-left">
                   <RoadMapUtils info={seventhInfo} />
                 </div>
               </div>

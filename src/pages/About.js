@@ -5,8 +5,8 @@ import blackRobot from "../assets/black-robot-full.png";
 import divider from "../assets/Divider.png";
 const About = () => {
   return (
-    <div id="About">
-      <div className={`relative  mt-32`}>
+    <div id="About" className="about">
+      <div className={`relative  md:mt-[120px] mt-[80px]`}>
         <div
           className={`${styles.paddingX} light-bg max-w-[1440px] mx-auto md:h-[883px] relative z-2  flex  justify-center`}
         >
@@ -26,8 +26,8 @@ const About = () => {
                 </h1>
               </div>
             </div>
-            <div className={`lg:px-[350px] md:px-[150px] pt-10`}>
-              <p className="text-center relative z-10 font-IbmMono font-medium md:text-[14px] text-[10px] leading-6 text-lightWhite">
+            <div className={`lg:px-[350px] md:px-[150px] md:py-10 py-8`}>
+              <p className="text-center relative z-10 font-IbmMono font-medium md:text-[14px] text-[10px]  leading-6 text-lightWhite">
                 We are thrilled to have you join the Vindico Studios community
                 on our exciting journey as an emerging entertainment powerhouse.
                 Our team is dedicated to developing innovative software

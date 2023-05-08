@@ -55,7 +55,7 @@ const MarketPlace = () => {
   return (
     <div
       id="Marketplace"
-      className={`md:${styles.padding} mt-7 max-w-[1440px] mx-auto lg:px-[10rem]`}
+      className={`md:${styles.padding} relative mt-7 max-w-[1440px] mx-auto lg:px-[10rem]`}
     >
       <div className="flex md:flex-row gap-3 flex-col justify-between items-center">
         <div className="flex-1">
@@ -68,7 +68,7 @@ const MarketPlace = () => {
             community.
           </p>
         </div>
-        <div className="flex flex-1 md:flex-row flex-col mt-5 md:mt-0 gap-4">
+        <div className="flex flex-1 md:flex-row justify-between flex-col mt-5 md:mt-0 gap-4">
           <div className="border border-lightWhite rounded-2xl px-8 py-10 ">
             <h3 className="font-Revamped text-white  md:text-[22px] text-[15px] leading-[25.31px]">
               10,255,89.53

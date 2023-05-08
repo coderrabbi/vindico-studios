@@ -1,13 +1,27 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { useState } from "react";
+import PurchaseModal from "./PurchaseModal";
 
 const MarketPlaceCard = ({ info }) => {
+  const [modal, setModal] = useState(false);
+  const openMOdal = () => {
+    setModal(true);
+  };
+  const handleBuy = () => {
+    setModal(false);
+  };
+  const cancle = () => {
+    setModal(false);
+  };
   return (
-    <div className="grid gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center text-center">
+    <div className="grid  gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center text-center">
+      {modal && (
+        <div className="fixed  top-0 right-0 left-0 bottom-0  bg-[#0000009a]  z-[10]" />
+      )}
       {info.map((item, index) => (
         <div
           key={index}
-          className="uppercase flex flex-col justify-center items-center gap-4 border-2 border-lightWhite w-[297px] h-[294px] mx-auto rounded-2xl"
+          className="uppercase flex mb-6 flex-col justify-center items-center gap-4 border-2 border-lightWhite w-[297px] h-[294px] mx-auto rounded-2xl"
         >
           <div>
             <img src={item.img} alt="" />
@@ -21,10 +35,14 @@ const MarketPlaceCard = ({ info }) => {
               Price: {item.price} $VCHIP
             </span>
           </div>
-          <button className="cursor-pointer gradient border-2 border-[#FFF0F080] w-[146px] h-[35px] rounded-full uppercase font-Revamped text-white">
-            {" "}
-            <Link to="wallet"> Purchase</Link>
+          <button
+            onClick={openMOdal}
+            className="cursor-pointer gradient border-2 border-[#FFF0F080] w-[146px] h-[35px] rounded-full uppercase font-Revamped text-white"
+          >
+            Purchase
           </button>
+
+          {modal && <PurchaseModal cancle={cancle} handleBuy={handleBuy} />}
         </div>
       ))}
     </div>
