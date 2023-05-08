@@ -32,7 +32,7 @@ const RoadMap = () => {
           </div>
         </div>
 
-        <div className=" text-white md:mt-[80px] md:pb-16 py-8  ">
+        <div className=" text-white md:mt-[80px] md:pb-16 md:py-8 py-0 ">
           <div className=" w-full h-full">
             <div className="relative md:px-0 px-5 overflow-hidden  h-full">
               <div className=" md:block hidden border-yellow-555  absolute left-[50%]    ">

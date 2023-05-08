@@ -87,7 +87,7 @@ code {
 .styles_faq-row-wrapper__3vA1D
   .row-title.closed.styles_row-title__1YiiY.styles_closed__39w54 {
   background: linear-gradient(180deg, #1d2224 0%, #0d0000 100%);
-  margin-bottom: 19px;
+  margin-bottom: 12px;
 
   padding: 4px 15px 13px 20px;
   border: 1px solid rgba(255, 240, 240, 0.5) !important;
@@ -117,6 +117,7 @@ section.faq-row.styles_faq-row__2YF3c {
   padding-left: 15px !important;
   font-family: "IBM Plex Mono" !important;
   font-weight: 500;
+  padding-bottom: 15px !important;
   font-size: 14px !important;
   line-height: 24px !important;
 }
@@ -163,16 +164,7 @@ span.icon-wrapper.styles_icon-wrapper__2cftw {
   background-size: cover;
   background-position: center;
 }
-/* 
-.right-pointer {
-  position: relative;
-}
-.right-pointer::before {
-  content: url(./assets/Pointer.svg);
-  position: absolute;
-  left: 0;
-  width: 50px;
-} */
+
 .for-transform {
   transform: translate(-50%, -50%);
 }
