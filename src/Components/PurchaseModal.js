@@ -4,7 +4,6 @@ const PurchaseModal = ({ cancle, handleBuy }) => {
   return (
     <div className="fixed   top-[50%] left-[50%] for-transform   z-[20]">
       <div>
-        <h1>Text is here</h1>
         <main id="content" role="main" class="w-full max-w-md mx-auto p-6">
           <div class="mt-7 bg-white  rounded-xl shadow-lg border-gray-700">
             <div class="p-4 sm:p-7">
