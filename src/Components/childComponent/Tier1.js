@@ -1,6 +1,6 @@
 import React from "react";
 import gun from "../../assets/gun.png";
-const Service = ({ benifits }) => {
+const Tier1 = ({ benifits }) => {
   return (
     <div className="md:flex md:flex-row flex flex-col-reverse justify-between items-center">
       <div className="flex-1">
@@ -34,4 +34,4 @@ const Service = ({ benifits }) => {
   );
 };
 
-export default Service;
+export default Tier1;

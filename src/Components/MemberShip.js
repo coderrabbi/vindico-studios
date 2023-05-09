@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "../style";
 import divider from "../assets/Divider.png";
-import Service from "./childComponent/Service";
+
 import Tier2 from "./childComponent/Tier2";
 import Tier3 from "./childComponent/Tier3";
+import Tier1 from "./childComponent/Tier1";
 const MemberShip = () => {
   const benifits = [
     "Passive income through ETH dividends",
@@ -38,7 +39,7 @@ const MemberShip = () => {
           granting them even greater benefits.
         </p>
         <div className="flex flex-col gap-10">
-          <Service benifits={benifits} />
+          <Tier1 benifits={benifits} />
           <Tier2 />
           <Tier3 />
         </div>
