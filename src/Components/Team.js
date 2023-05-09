@@ -57,12 +57,9 @@ const Team = () => {
         </h1>
       </div>
       <div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-10  items-center">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-center md:gap-10 gap-6   ">
           {teamMemberInfo?.map((item, index) => (
-            <div
-              key={index}
-              className="flex md:mt-10 mt-5 flex-col gap-4 items-center"
-            >
+            <div key={index} className="flex md:mt-10 mt-5 flex-col gap-4 ">
               <div>
                 <img
                   src={item.img}
