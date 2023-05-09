@@ -31,14 +31,14 @@ code {
   opacity: 0.2;
   z-index: 0;
 }
-.dark-overlay {
+/* .dark-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background: #000000;
   opacity: 0.2;
   z-index: 0;
-}
+} */
 .gradient {
   background: linear-gradient(180deg, #ff0000, #690000);
 }
