@@ -36,18 +36,19 @@ const About = () => {
                 this initial phase is to surpass industry expectations and
                 establish ourselves as new creators with a passion for
                 delivering exceptional quality to our audience. <br />
-                It all starts with The Key To V NFT collection, your golden
-                ticket to VIP status within the Vindico Studios ecosystem! The
-                Key To V collection grants holders a{" "}
+                It all starts with{" "}
+                <span className="text-orange-500">The Key To V</span> NFT{" "}
+                collection, your golden ticket to VIP status within the Vindico
+                Studios ecosystem! The Key To V collection grants holders a{" "}
                 <span className="text-white">lifetime membership</span> with
                 Vindico Studios and a multitude of continuously evolving
                 benefits and privileges. The artwork features characters from
                 our ever-growing portfolio, which will be seen again throughout
                 future releases. <br />
                 We have a range of exciting platforms in the works, including
-                The Superhero Academy for{" "}
                 <span className="text-white">
-                  Self-Growth, The Vindico Emporium
+                  {" "}
+                  The Superhero Academy for Self-Growth, The Vindico Emporium
                 </span>
                 , and <span className="text-white">The Lair Metaverse</span>.
                 Plus, we're rolling out our debut productions, such as short

@@ -3,7 +3,7 @@ import styles from "../style";
 import blackRobot from "../assets/black-robot-half.png";
 import whiteRobot from "../assets/white-robot-half.png";
 import divider from "../assets/Divider.png";
-import { BsDiscord, BsTwitter } from "react-icons/bs";
+import { BsDiscord, BsTwitter, BsEnvelopePaperHeartFill } from "react-icons/bs";
 const Hero = () => {
   let [clockData, setClockData] = useState({
     dd: 0,
@@ -64,7 +64,7 @@ const Hero = () => {
                 vindico <br /> studios
               </h1>
             </div>
-            <div className="font-IbmMono  font-semibold text-lightWhite flex gap-5 justify-center">
+            {/* <div className="font-IbmMono  font-semibold text-lightWhite flex gap-5 justify-center">
               <div className="flex-col gap-3 flex">
                 <span className="flex items-center justify-center rounded-full  border-2 border-lightWhite w-[50px] h-[50px] mx-auto my-auto text-[22px] ">
                   {clockData.dd}
@@ -91,7 +91,10 @@ const Hero = () => {
                 </span>
                 <span className="text-[10px]">Seconds</span>
               </div>
-            </div>
+            </div> */}
+            <h3 className="text-white text-[18px] md:text-[28px] md:leading-10 leading-6">
+              A Next-Generation <br /> Entertainment Studio
+            </h3>
             <div className="flex md:flex md:flex-row flex-col gap-4 justify-center text-[12px]">
               <button className="gradient text-white w-[175px] h-[40px] border rounded-full">
                 Explore Now
@@ -101,8 +104,9 @@ const Hero = () => {
               </button>
             </div>
             <div className=" flex gap-3 ">
-              <BsDiscord className=" cursor-pointer text-white hover:text-[#afafaf]" />
-              <BsTwitter className=" cursor-pointer text-white hover:text-[#afafaf]" />
+              <BsDiscord className=" cursor-pointer hover:text-white text-[#afafaf]" />
+              <BsTwitter className=" cursor-pointer hover:text-white text-[#afafaf]" />
+              <BsEnvelopePaperHeartFill className=" cursor-pointer hover:text-white text-[#afafaf]" />
             </div>
           </div>
           <img

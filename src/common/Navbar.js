@@ -106,10 +106,30 @@ const Navbar = () => {
         >
           <ul className=" flex-1 ">
             <li
-              className={` flex justify-center items-center flex-col cursor-pointer  text-white  text-[12px]  font-Revamped uppercase `}
+              className={` text-center mb-4 cursor-pointer  text-white  text-[12px]  font-Revamped uppercase `}
             >
-              {navItems.map((item, index) => {
-                return (
+              <Link
+                className={`${pathname === "/" ? "active" : ""}`}
+                onClick={() => {
+                  setTimeout(() => {
+                    const location = document.querySelector(".home").offsetTop;
+
+                    window.scrollTo({
+                      left: 0,
+                      top: location - 100,
+                    });
+                  }, 300);
+                }}
+              >
+                Home
+              </Link>
+            </li>
+
+            {navItems.map((item, index) => {
+              return (
+                <li
+                  className={` flex justify-center items-center flex-col cursor-pointer  text-white  text-[12px]  font-Revamped uppercase `}
+                >
                   <Link
                     className={`${
                       index === navItems.length - 1 ? `mr-0` : `mb-4`
@@ -133,9 +153,10 @@ const Navbar = () => {
                   >
                     {item.text}
                   </Link>
-                );
-              })}
-            </li>
+                </li>
+              );
+            })}
+
             <div className="flex flex-col gap-6 items-center mt-4">
               <li className="cursor-pointer  text-white items-center text-[12px] gap-6 font-Revamped uppercase">
                 <Link

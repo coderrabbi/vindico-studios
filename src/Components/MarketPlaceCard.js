@@ -23,7 +23,7 @@ const MarketPlaceCard = ({ info }) => {
           key={index}
           className="uppercase flex mb-6 flex-col justify-center items-center gap-4 border-2 border-lightWhite w-[297px] h-[294px] mx-auto rounded-2xl"
         >
-          <div>
+          <div className="max-w-[115px]">
             <img src={item.img} alt="" />
           </div>
           <div className="flex flex-col items-center gap-1 justify-center">

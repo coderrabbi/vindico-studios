@@ -1,5 +1,5 @@
 import React from "react";
-import temper from "../../assets/temper.png";
+import coat from "../../assets/coat.png";
 const Tier2 = () => {
   const benifits = [
     "Ability to grant guests membership access in The Lair",
@@ -13,7 +13,7 @@ const Tier2 = () => {
     <div>
       <div className="md:flex md:flex-row flex flex-col justify-between items-center">
         <div className="flex-1 flex justify-start">
-          <img className="w-[397px]" src={temper} alt="temper" />
+          <img className="w-[397px]" src={coat} alt="temper" />
         </div>
         <div className="flex-1">
           <h1 className="text-gradient py-[42px] uppercase font-Revamped md:text-[28px] text-[18px] stroke-1 leading-[32.21px]">

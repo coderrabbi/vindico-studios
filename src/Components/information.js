@@ -35,14 +35,14 @@ export const fifthInfo = {
 };
 
 export const sixthInfo = {
-  heading: "interactive Comic Book #0 NFT collection launches!",
+  heading: "Vindico Studios Comic Book #0 NFT collection launches!",
   discription: [
-    "Original minters receive the only printed, physical copy of Vindico Studios first ever comic book framed and numbered!",
-
-    "Holders can enhance their NFT to showcase hidden features like auditory enhancements and animations!",
+    "The prequel Comic Book in our debut series is dropped as as an NFT collection! TKTV holders utilize their membership perks to access Comic Book #0 as a free mint. Original minters receive the only printed, traditional copy of Comic Book #0, framed and numbered!",
   ],
 };
 export const seventhInfo = {
   heading: "expanding and improving each of the established releases",
-  discription: ["And begin focusing on full scale cinematic productions!"],
+  discription: [
+    "And begin focusing on releasing new innovative additions to our ecosystem!",
+  ],
 };
